@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Finlandica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Logo{
+    font-size: 20px;
+   font-family:Arial, Helvetica, sans-serif;
+   font-weight:800;
+}
+
+.appbar{
+    position: sticky;
+    z-index: 1;
+    background-color: whitesmoke;
+    padding: 20px;
+    /* position: static; */
+    box-shadow: 0px 0px 70px 5px rgba(0, 0, 0, 0.2); 
+ 
+}
+
+    .needSpace{
+        flex-grow: 1;
+    }
+.navbar{
+    display: flex;
+    align-items: center;
+    margin: 0px 20px;
+ 
+}
+
+.navItems{
+    margin-right: 60px ;
+}
+
+.items{
+    text-decoration: none;
+    color: black;
+    /* margin: 20px; */
+    padding: 2px 20px;
+    /* font-size: 25px; */
+
+}
+
+.items:hover{
+    color:#545495;
+     border-bottom: 3px solid #545495;
+}
+
+.content{
+   display: flex;
+   z-index: -1;
+   background-color: rgb(255, 255, 255);
+   min-height: 85vh;
+     
+}
+.bannertext{
+    text-align: center;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bannertext *{
+    margin-left: 30px;
+    padding: 3px 0px;
+}
+
+.bannertext > p{
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 700;
+    color: rgba(48, 48, 48, 0.902)
+}
+
+.second-content{
+    min-height: 5vh;
+    align-items: center;
+    text-align: center;
+}
+
+.second-content *{
+    text-decoration: none;
+    padding-left: 10px;
+    color: silver;
+}
+
+.second-content > a > i{
+    font-size: 20px
+}
+
+.handleItems:hover{
+    color: black;
+}
+
+.MyimageContainer{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+}
+
+.myImage{
+    width: 70%;
+    height: 90%;
+        -webkit-mask-image: -webkit-gradient(linear,right top , right bottom , from(rgba(0,0,0,1)),to(rgba(0,0,0,0.1)));
+        border-radius: 100px;
+
+}
