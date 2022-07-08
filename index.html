@@ -12,35 +12,97 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+   
     <div class="appbar">
       
       <div class="navbar">
                 <a class="Logo">LOGO</a>   
                 <div class="needSpace"></div> 
                 <div class="navItems">
-                    <a class="items" href="#">About</a>
-                    <a class="items" href="#">Skills</a>
-                    <a class="items" href="#">Home</a>
-                    <a class="items" href="#">Contact</a>
+                    <a class="items" href="#Home">Home</a>
+                    <a class="items" href="#About">About</a>
+                    <a class="items" href="#Contact">Contact</a>
                 </div>
           
       </div>
     </div>
-    <div class="content">
-        <div class="bannertext">
-            <h1>Hi, I'm Raunak </h1>
-            <h3>-+ Frontend Developer +-</h3>
-            <p>I have done my diploma in cse. i'm passionate about  frontend devleoping</p>
-        </div>
-        <div class="MyimageContainer">
-            <img src="./assets/ss.png" class="myImage" alt="myImage" />
-        </div>
-    </div>
+    
 
+         <div class="content" id="Home">
+            <div class="bannertext">
+                <h1>Hi, I'm Raunak </h1>
+                <h3>-+ Frontend Developer +-</h3>
+                <p>I have done my diploma in cse. i'm passionate about  frontend devleoping</p>
+            </div>
+            <div class="MyimageContainer">
+                <img src="./assets/ss.png" class="myImage" alt="myImage" />
+                
+            </div>
+            
+        </div>
+ 
+    <section id="About" >
+      
+        <div class="content AboutContent">
+                <div class="Skills">
+                    <h1>Skills</h1>
+                    <div class="SkillSet">
+                        <div class="skillItem">
+                            <h3>HTML</h3>
+                            <div class="progress" style="width:90%;"></div>
+                        </div>
+                        <div class="skillItem">
+                            <h3>CSS</h3>
+                            <div class="progress"  style="width:70%;"></div>
+                        </div>
+                        <div class="skillItem">    
+                            <h3>JAVASCRIPT</h3>
+                            <div class="progress"  style="width:50%;"></div>
+                        </div>
+                        <div class="skillItem">
+                            <h3>REACT</h3>
+                            <div class="progress"  style="width:40%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <h1>Project</h1>
+                    <div class="projectItems">
+
+                        <h3>ParllelX Scrolling Website</h3>
+                        <h3>Responsive Resume</h3>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section id="Contact">
+        <div class="content Contactform">
+            <div>
+
+                <form class="formContact">
+                    <label  class="inputTitle">Name</label>
+                    <div>
+                        <input type="text" placeholder="first Name"> 
+                        <input type="text" placeholder="last Name"> 
+                    </div>
+                    <label class="inputTitle">Contacts</label>
+                    <div>
+                        <input type="email" placeholder="Email">
+                        <input type="tel" placeholder="Phone number">
+                    </div>
+                    <label class="inputTitle">Message</label>
+                    <div>
+                        <textarea  cols="50" row="50" placeholder="text your Message" ></textarea>
+                    </div>
+                    <button type="submit" style="width:50% ;">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
     <div class="second-content">
         <a href="https://github.com/Raunak2singh" class="handleItems"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
         <a href="https://www.linkedin.com/in/raunak-singh-8a738617a/" class="handleItems"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
-        <a href="https://www.instagram.com/raunak_singh4427/" class="handleItems"><i class="fa fa-instagram" aria-hidden="true"></i> instagaram</a>
+        <a href="https://www.instagram.com/raunak_singh4427/" class="handleItems"><i class="fa fa-instagram" aria-hidden="true"></i> instagram</a>
     </div>
 
 
